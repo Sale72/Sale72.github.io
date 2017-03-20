@@ -1,0 +1,673 @@
+html {
+    font-size: 16px;
+}
+.navbar-default {
+    background-color: #003c61;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+}
+.navbar-default .navbar-brand {
+    color: #0c3769;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #357dfc;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #357dfc;
+}
+a#active {
+    color: #357dfc;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #004877;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #357dfc;
+}
+.navbar-collapse {
+    border: none;
+}
+
+/* -----Headline----Button----- */
+
+.about-bg-image {
+    background-image: url('http://mainflux.com/wp-content/uploads/2017/01/About-Us-Background-Main1200.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+}
+.headline h2 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    transform: scaleY(0.91);
+    font-size: 3.26rem;
+    letter-spacing: -2.9px;
+    color: white;
+    margin-top: 7rem;
+}
+.headline h1 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    font-size: 1.4rem;
+    letter-spacing: -0.2px;
+    color: white;
+}
+.headline h3 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 200;
+    transform: scaleY(0.95);
+    font-size: 1.14rem;
+    letter-spacing: 2.15px;
+    color: white;
+    margin-top: -11px;
+}
+p.description {
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 0.767rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: white;
+    margin-top: 15px;
+}
+.button {
+    text-align: center;
+}
+.btn {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    width: 175px;
+    margin-top: 40px;
+    background-color: white;
+    color: #003c61;
+}
+.btn:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #357dfc;
+}
+.fa-github {
+    font-size: 1.2rem;
+    color: #0c3769;
+    padding-right: 10px;
+}
+
+/*------------------------------------------*/
+
+
+/*----About Us----*/
+
+div.bio-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.about-us h4 {
+    /* -Headline About us Mainflux-*/
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 600;
+    transform: scaleY(0.92);
+    font-size: 3.16rem;
+    letter-spacing: -1.2px;
+    color: #0c3769;
+    margin-bottom: 28px;
+    margin-top: 25px;
+    margin-right: 25.2px;
+}
+.about-us p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    color: #0c3769;
+    padding-right: 16px;
+    margin-top: 15px;
+}
+
+/*----Team Bio----*/
+
+.media-left i {
+    font-size: 22px;
+    color: #0c3769;
+    margin-top: 5px;
+}
+.right-col-bio {
+    margin-left: 1.35vw;
+}
+.name-bio {
+    text-align: justify;
+}
+.name-bio h5 {
+    /* -Name and Surname-*/
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.05rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+.name-bio h6 {
+    /* -Expertise-*/
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #0c3769;
+}
+.name-bio p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 0.785rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+.break-line {
+    height: 1px;
+    width: 79.6vw;
+    background: rgba(12, 55, 105, .1);
+    margin-left: 9vw;
+    margin-bottom: 27px;
+}
+
+/*---------------------------*/
+
+
+/* -- Action Call Section -- */
+
+.action {
+    background-color: #f7f7f7;
+    margin-top: 9rem;
+}
+.action-call h6 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 24px;
+}
+.action-button {
+    text-align: center;
+    padding-bottom: 28px;
+}
+#action {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: #003c61;
+    color: white;
+}
+#action:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #357dfc;
+}
+
+/*---------------------------*/
+
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background: #003c61;
+    padding-top: 35px;
+}
+div.footer h6 {
+    font-family: Questrial;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+div.footer a {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+div.footer-col {
+    margin-right: 45px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Questrial;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem
+}
+#social {
+    padding-left: 19.3vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- medium desktops ---- */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/background-main1000.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 500px;
+    }
+    .headline h2 {
+        margin-top: 7.75rem;
+    }
+    #introduction {
+        margin-left: 2vw;
+    }
+    .about-us h4 {
+        /* -Headline About us Mainflux-*/
+        text-align: left;
+    }
+    .left-col-bio {
+        padding-left: 2vw;
+    }
+    .media img {
+        padding-right: 7px;
+    }
+    .name-bio p {
+        font-size: 0.834rem
+    }
+    .right-col-bio {
+        margin-left: 0vw;
+        margin-top: 2.8vw;
+        margin-bottom: -2.45vw;
+        padding: 2vw;
+    }
+    div.break-line {
+        display: none;
+    }
+    .action {
+        margin-top: 2.5rem;
+    }
+    #social {
+        padding-left: 9.3vw;
+    }
+    .footer-line {
+        height: 1px;
+        width: 81vw;
+        background: rgba(255, 255, 255, .3);
+        margin-left: 10.1vw;
+        margin-bottom: 11px;
+    }
+    #terms {
+        margin-left: 1.08vw;
+        padding: 1px;
+    }
+}
+
+/* ---- small devices ---- */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/background-main-800.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 430px;
+    }
+    #introduction {
+        margin-left: 2vw;
+    }
+    .about-us h4 {
+        /* -Headline About us Mainflux-*/
+        text-align: left;
+    }
+    .left-col-bio {
+        padding-left: 2vw;
+    }
+    .media img {
+        padding-right: 7px;
+    }
+    .name-bio p {
+        font-size: 0.834rem
+    }
+    .right-col-bio {
+        margin-left: 0vw;
+        margin-top: 2.8vw;
+        margin-bottom: -2.45vw;
+        padding: 2vw;
+    }
+    div.break-line {
+        display: none;
+    }
+    .action {
+        margin-top: 2.5rem;
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA small devices ---- */
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/background-main-570.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 380px;
+    }
+    .headline h2 {
+        font-size: 2.84rem;
+        margin-top: 6rem;
+    }
+    p.description {
+        font-size: 0.7187rem;
+        padding: 0;
+        margin: 0;
+    }
+    .btn {
+        margin-top: 33px;
+        width: 165px;
+    }
+    .about-us h4 {
+        /* -Headline About us Mainflux-*/
+        text-align: left;
+        font-size: 2.25rem;
+    }
+    .about-us p {
+        font-size: 0.96rem;
+    }
+    .left-col-bio {
+        padding-left: 2vw;
+    }
+    .media-left {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    h6.media-heading {
+        margin-bottom: 10px;
+    }
+    .media img {
+        padding-right: 2px;
+        height: 150px;
+    }
+    .name-bio p {
+        font-size: 0.834rem
+    }
+    .right-col-bio {
+        margin-left: 0vw;
+        margin-top: 2.8vw;
+        padding: 2vw;
+    }
+    div.break-line {
+        display: none;
+    }
+    .action {
+        margin-top: 0.5rem;
+    }
+    /* ---- FOOTER  ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA Extra small devices ---- */
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/03/mainflux-internet-of-things-background-main320-480.png');
+        background-position: center center;
+        background-size: cover;
+        height: 312px;
+    }
+    .headline h2 {
+        font-size: 2.7rem;
+        margin-top: 5rem;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.206rem;
+    }
+    .headline h3 {
+        font-size: 1rem;
+    }
+    p.description {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+    .head-desc {
+        display: none;
+    }
+    .github {
+        display: none;
+    }
+    .about-us h4 {
+        /* -Headline About us Mainflux-*/
+        text-align: left;
+        font-size: 2.25rem;
+    }
+    .about-us p {
+        font-size: 0.79rem;
+    }
+    .left-col-bio {
+        padding: 0
+    }
+    .media-left {
+        padding: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .media img {
+        height: 130px;
+        margin: 0 auto;
+    }
+    h6.media-heading {
+        margin-bottom: 10px;
+    }
+    .name-bio {
+        text-align: center;
+    }
+    .name-bio p {
+        font-size: 0.79rem;
+        text-align: justify;
+    }
+    .right-col-bio {
+        margin-left: 0vw;
+        margin-top: 2.8vw;
+        margin-bottom: 4vw;
+        padding: 0;
+    }
+    div.break-line {
+        display: none;
+    }
+    .action {
+        margin-top: 0.5rem;
+    }
+    .action-call h6 {
+        font-size: 1.2rem;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 25.5vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}

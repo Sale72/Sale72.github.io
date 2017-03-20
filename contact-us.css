@@ -1,0 +1,470 @@
+html {
+    font-size: 16px;
+}
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #003c61;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #0c3769;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #357dfc;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #357dfc;
+}
+a#active {
+    color: #357dfc;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #004877;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #357dfc;
+}
+.navbar-collapse {
+    border: none;
+}
+
+/* ----- Headline ----- */
+
+.about-bg-image {
+    background-image: url('http://mainflux.com/wp-content/uploads/2017/01/About-Us-Background-Main1200.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+}
+.headline h2 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    transform: scaleY(0.91);
+    font-size: 3.26rem;
+    color: white;
+    margin-top: 9rem;
+}
+.headline h1 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    font-size: 1.4rem;
+    letter-spacing: -0.2px;
+    color: white;
+}
+.headline h3 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 200;
+    transform: scaleY(0.95);
+    font-size: 1.14rem;
+    letter-spacing: 2.15px;
+    color: white;
+    margin-top: -11px;
+}
+p.description {
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 0.767rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: white;
+    margin-top: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/*----Main Contact Us----*/
+
+
+/* ------------ Main Content ----------- */
+
+div.country-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.country h5 {
+    /* -Subhedaline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+#soc-icons i {
+    font-size: 1.8rem;
+    color: #0c3769;
+    padding-right: 26px;
+    margin-bottom: 12px;
+}
+.country h6 {
+    /* -Sub-Subheadline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 1.097rem;
+    color: #0c3769;
+    margin-top: -7px;
+}
+.country p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    color: #0c3769;
+    padding-right: 16px;
+    margin-top: 15px;
+}
+div#map {
+    max-width: 100%;
+    max-height: auto;
+    border: 0.8em solid #faf8f5;
+}
+
+/*------------------------------------------*/
+
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    margin-top: 35px;
+    padding-top: 35px;
+    background: #003c61;
+}
+div.footer h6 {
+    font-family: Questrial;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+div.footer a {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+div.footer-col {
+    margin-right: 45px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Questrial;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem;
+}
+#social {
+    padding-left: 19.3vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+}
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- medium desktops ---- */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/About-Us-Background-Main1000.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 268px;
+        margin-top: 2.7rem;
+    }
+    .headline h2 {
+        font-size: 3.16rem;
+        color: white;
+        margin-top: 4.1rem;
+    }
+    .left-col {
+        margin-left: auto;
+        width: 18.3rem;
+    }
+    .right-col {
+        margin-left: auto;
+        width: 38.1rem;
+    }
+    #social {
+        padding-left: 9.3vw;
+    }
+    .footer-line {
+        height: 1px;
+        width: 81vw;
+        background: rgba(255, 255, 255, .3);
+        margin-left: 10.1vw;
+        margin-bottom: 11px;
+    }
+    #terms {
+        margin-left: 1.08vw;
+        padding: 1px;
+    }
+}
+
+/* ---- small devices ---- */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/About-Us-Background-Main-800.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 230px;
+        margin-top: 2.55rem;
+    }
+    .headline h2 {
+        font-size: 2.75rem;
+        margin-top: 4rem;
+    }
+    .left-col {
+        margin-bottom: 20px
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA small devices ---- */
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/About-Us-Background-Main-570.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 165px;
+        margin-top: 3.15rem;
+    }
+    .headline h2 {
+        font-size: 2.23rem;
+        margin-top: 2.6rem;
+    }
+    .headline h1 {
+        font-size: 1.29rem;
+    }
+    .headline h3 {
+        font-size: 1.1rem;
+    }
+    .left-col {
+        margin-bottom: 20px;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA Extra small devices ---- */
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .about-bg-image {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/02/About-Us-Background-Main-400.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 165px;
+        margin-top: 3.15rem;
+    }
+    .headline h2 {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+    .headline h1 {
+        font-size: 1.09rem;
+        margin-top: 0.5rem;
+    }
+    .headline h3 {
+        font-size: 0.93rem;
+    }
+    div.country-section {
+        padding: 0;
+        margin-top: 25px
+    }
+    .country-section p {
+        font-size: 0.86rem;
+        margin-top: 1px;
+    }
+    #soc-icons i {
+        font-size: 1.5rem
+    }
+    /* ---- FOOTER ---- */
+    div.footer {
+        margin-top: 5px;
+    }
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 25.5vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}

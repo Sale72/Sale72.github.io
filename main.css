@@ -1,0 +1,1206 @@
+/* CSS used here will be applied after bootstrap.css */
+
+html {
+    font-size: 16px;
+}
+.navbar-default {
+    border: none;
+    margin-bottom: 0;
+    background-color: #003c61;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #0c3769;
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    transform: scaleY(0.96);
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #357dfc;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #357dfc;
+}
+a#active {
+    color: #357dfc;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+.navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #004877;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #357dfc;
+}
+.navbar-collapse {
+    border: none;
+}
+
+/* -----Headline--Features--Button----- */
+
+.bgimage {
+    background-image: url('http://mainflux.com/wp-content/uploads/2017/01/background-main1200.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 772px;
+}
+.headline h2 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    transform: scaleY(0.90);
+    font-size: 6.26rem;
+    letter-spacing: -2.9px;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px;
+    color: white;
+    margin-top: 9.1rem;
+}
+.headline h1 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    font-size: 1.9rem;
+    letter-spacing: -0.2px;
+    color: white;
+}
+.headline h3 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 200;
+    transform: scaleY(0.95);
+    font-size: 1.61rem;
+    letter-spacing: 2.15px;
+    color: white;
+    margin-top: -11px;
+}
+p.description {
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 0.967rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: white;
+    margin-top: 35px;
+}
+.features {
+    text-align: center;
+    margin-top: 65px;
+}
+.features img {
+    display: block;
+    margin: 0 auto;
+}
+.features p {
+    color: white;
+    font-family: Questrial;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.btn {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    width: 175px;
+    margin-top: 20px;
+    background-color: white;
+    color: #003c61;
+    margin-left: 10px;
+}
+.btn:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #7d91e5;
+}
+.fa-github {
+    font-size: 1.2rem;
+    color: #0c3769;
+    padding-right: 10px;
+}
+
+/*------------------------------------------*/
+
+
+/* ------------ MAIN CONTENT ----------- */
+
+
+/* --------- What is Mainflux -------- */
+
+.what h4 {
+    /* -Headline What is Mainflux-*/
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bolder;
+    transform: scaleY(0.92);
+    font-size: 3.16rem;
+    letter-spacing: -1.2px;
+    color: #0c3769;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+img#cloud {
+    margin: 0 auto;
+    display: block;
+}
+p.cloud-text {
+    text-align: center;
+    font-family: Raleway;
+    color: #0c3769;
+    font-size: 1.093rem;
+    margin: 45px 0 45px 0;
+}
+.tool-server img {
+    margin: 0 auto;
+    display: block;
+}
+.tool-server h6 {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #0c3769;
+    font-size: 1.01rem;
+}
+.tool-server p {
+    text-align: center;
+    font-family: Raleway;
+    color: #0c3769;
+}
+.event-connect img {
+    margin: 0 auto;
+    display: block;
+}
+.event-connect h6 {
+    text-align: center;
+    font-family: Montserrat;
+    color: #0c3769;
+    font-size: 1.01rem;
+    font-weight: 600;
+}
+.event-connect p {
+    text-align: center;
+    font-family: Raleway;
+    color: #0c3769;
+}
+div.event-connect {
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+/*--  Infrastructure stack ---*/
+
+.general-stack h5 {
+    text-align: center;
+    font-family: Raleway;
+    transform: scaleY(0.93);
+    font-size: 2.28rem;
+    font-weight: 300;
+    color: #0c3769;
+    margin-bottom: 25px;
+}
+img.infrastructure {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.general-stack p {
+    text-align: center;
+    font-family: Raleway;
+    color: #0c3769;
+    font-size: 1.093rem;
+    margin-bottom: 45px;
+}
+
+/*------Features and action call--------*/
+
+div.tech-left {
+    margin-bottom: 45px;
+}
+.tech-left h5 {
+    /* -Subhedaline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+.tech-left h6 {
+    /* -Sub-Subheadline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 1.097rem;
+    color: #0c3769;
+}
+.tech-left p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    color: #0c3769;
+    padding-right: 16px;
+    margin-top: 15px;
+}
+.tech-left li {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    color: #0c3769;
+}
+.tech-left i {
+    font-size: 10px;
+    color: #0c3769;
+    margin-top: 4.2px;
+    display: inline-block;
+    padding-right: 80px;
+}
+.right-icon-what {
+    margin-top: 50px;
+}
+#tech.btn {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    margin-top: 15px;
+    background-color: #003c61;
+    color: white;
+    width: 215px;
+}
+#tech:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #357dfc;
+}
+
+/* --------- Why Mainflux -------- */
+
+div.white-why-section {
+    margin-bottom: 30px;
+    padding-top: 20px
+}
+div.grey-why-section {
+    background-color: #f7f7f7;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin-bottom: 20px;
+}
+.left-col-why {
+    border-right: 1px solid rgba(126, 149, 176, .2);
+}
+.right-col-why {
+    margin-left: 28px;
+}
+.why h4 {
+    /* -Headline Why Mainflux-*/
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bolder;
+    transform: scaleY(0.92);
+    font-size: 3.16rem;
+    letter-spacing: -1.2px;
+    color: #0c3769;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.why h5 {
+    /* -Subhedaline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+.why h6 {
+    /* -Sub-Subheadline Why Mainflux-*/
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 1.097rem;
+    color: #0c3769;
+}
+.why p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    text-align: justify;
+    color: #0c3769;
+    padding-right: 16px;
+    margin-top: 15px;
+}
+
+/*------------------------------------------*/
+
+
+/* -----What can you do  ----- */
+
+div.white-do-section {
+    margin-bottom: 30px;
+    padding-top: 20px
+}
+div.grey-do-section {
+    background-color: #f7f7f7;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin-bottom: 20px;
+}
+.left-col-do {
+    border-right: ;
+}
+.right-col-do {
+    margin-left: 28px;
+}
+.do h4 {
+    /* -Headline-What Can You Do With Mainflux -*/
+    text-align: center;
+    font-family: Raleway;
+    font-weight: bolder;
+    transform: scaleY(0.92);
+    font-size: 3.16rem;
+    letter-spacing: -1.2px;
+    color: #0c3769;
+    margin-bottom: 55px;
+    margin-top: 25px;
+}
+.do h5 {
+    /*-Subhedaline (For) What With Mainflux-*/
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 0;
+}
+div.right-icon-do {
+    margin-top: 4.9em;
+}
+.right-icon {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 9px;
+}
+.icon-subheadline h6 {
+    /*-Right Icon-Subheadline-What with Mainflux-*/
+    text-align: center;
+    font-family: Questrial;
+    font-weight: 300;
+    font-size: 0.96rem;
+    color: #0c3769;
+}
+.do p {
+    font-family: Heebo;
+    font-weight: 300;
+    font-size: 1.06rem;
+    text-align: justify;
+    color: #0c3769;
+    padding-right: 16px;
+    margin-top: 15px;
+}
+
+/*---------------------------*/
+
+
+/* -- Action Call Section -- */
+
+.action {
+    background-color: #f7f7f7;
+    padding: 0;
+}
+.action-call h6 {
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 1.44rem;
+    color: #0c3769;
+    margin-top: 24px;
+}
+.action-button {
+    text-align: center;
+    padding-bottom: 28px;
+}
+#action {
+    color: #003c61;
+    font-family: Questrial;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    border-radius: 1px;
+    width: 175px;
+    margin-top: 15px;
+    background-color: #003c61;
+    color: white;
+}
+#action:hover {
+    background-color: #357dfc;
+    color: white;
+    border-color: #357dfc;
+}
+
+/*---------------------------*/
+
+
+/* ----- FOOTER ----- */
+
+div.footer {
+    background: #003c61;
+    padding-top: 35px;
+}
+div.footer h6 {
+    font-family: Questrial;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+div.footer a {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, .78);
+}
+div.footer a:hover {
+    text-decoration: none;
+    color: #357dfc;
+}
+div.footer-col {
+    margin-right: 45px
+}
+.input-group .form-control {
+    background: transparent;
+    border-color: rgba(255, 255, 255, .39);
+    border-radius: 1px;
+    height: 40px;
+    color: white;
+}
+.input-group-addon {
+    border-radius: 1px;
+    border-color: rgba(255, 255, 255, .39);
+    font-family: Questrial;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    padding: 11px 25px;
+}
+.footer p {
+    color: white;
+}
+.footer i {
+    font-size: 19.7px;
+    color: white;
+    padding-right: 16px;
+    margin-bottom: 12px;
+}
+#licence {
+    margin-top: 8rem;
+}
+#licence p {
+    font-family: Heebo;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    margin-left: 7.17rem
+}
+#social {
+    padding-left: 19.3vw;
+}
+.footer-line {
+    height: 1px;
+    width: 83vw;
+    background: rgba(255, 255, 255, .3);
+    margin-left: 7.7vw;
+    margin-bottom: 11px;
+}
+#terms {
+    margin-left: 0.78vw;
+    padding: 1px;
+}
+#terms a {
+    font-size: 0.8rem;
+}
+#mainflux-footer {
+    text-align: right;
+    padding-right: 1px;
+    padding-top: 0;
+    margin-top: -5px;
+}
+#mainflux-footer p {
+    font-family: Montserrat;
+    font-weight: 800;
+    transform: scaleY(0.94);
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 0;
+}
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+/* ---- medium desktops ---- */
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .bgimage {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/03/iot-background-main-992-1200.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 725px;
+    }
+    .headline h2 {
+        font-size: 5.61rem;
+    }
+    .headline h1 {
+        font-size: 1.72rem;
+    }
+    .headline h3 {
+        font-size: 1.44rem;
+    }
+    p.description {
+        font-size: 0.877rem;
+    }
+    .features {
+        margin-top: 65px;
+    }
+    .features p {
+        margin-top: 8px;
+    }
+    /* ---- why mainflux ---- */
+    .left-col-why {
+        padding: 0;
+        border-right: none;
+    }
+    .right-col-why {
+        margin-left: 6vw;
+        padding: 0;
+    }
+    .why h5 {
+        font-size: 1.4rem;
+    }
+    .why h6 {
+        font-size: 1.199em;
+    }
+    .why p {
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    /* ---- what can you do with mainflux ---- */
+    div.right-icon-do {
+        margin-top: 3em;
+    }
+    .do h5 {
+        font-size: 1.4rem;
+    }
+    .do p {
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    .icon-subheadline h6 {
+        font-size: 0.912rem;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    #social {
+        padding-left: 9.3vw;
+    }
+    .footer-line {
+        height: 1px;
+        width: 81vw;
+        background: rgba(255, 255, 255, .3);
+        margin-left: 10.1vw;
+        margin-bottom: 11px;
+    }
+    #terms {
+        margin-left: 1.08vw;
+        padding: 1px;
+    }
+}
+
+/* ---- small devices ---- */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .bgimage {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/03/iot-background-main-768-992.jpg');
+        background-position: center center;
+        background-size: cover;
+        height: 445px;
+    }
+    .headline h2 {
+        font-size: 4.51rem;
+        margin-top: 6.2rem;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.415rem;
+    }
+    .headline h3 {
+        font-size: 1.17rem;
+    }
+    p.description {
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        height: 35px;
+    }
+    .features p {
+        font-size: 0.72rem;
+        letter-spacing: 0.5px;
+    }
+    .btn {
+        margin-top: 20px;
+        background-color: #003c61;
+        color: white;
+    }
+    .btn:hover {
+        background-color: #357dfc;
+        color: white;
+        border-color: #357dfc;
+    }
+    .fa-github {
+        font-size: 1.2rem;
+        color: white;
+        padding-right: 10px;
+    }
+    /* ---- what is mainflux ---- */
+    .tool-server img {
+        height: 70px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect img {
+        height: 80px;
+    }
+    .tool-server p {
+        font-size: 0.85rem;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.85rem;
+    }
+    /* ---- mainfux features ---- */
+    .tech-left {
+        padding: 0;
+    }
+    .left-col-what li {
+        font-size: 0.965rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what li {
+        font-size: 0.965rem;
+    }
+    /* ---- Why Mainflux ---- */
+    div.grey-why-section {
+        background-color:
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+    }
+    .right-col-why {
+        margin-left: 8vw;
+        background-color:
+    }
+    /* ---- What Can You Do Mainflux ---- */
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 55%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA small devices ---- */
+
+@media screen and (min-width:480px) and (max-width:767px) {
+    .bgimage {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/03/iot-mainflux-background-main-480-767.png');
+        background-position: center center;
+        background-size: cover;
+        height: 345px;
+    }
+    .headline h2 {
+        font-size: 4.11rem;
+        margin-top: 5.2rem;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.265rem;
+    }
+    .headline h3 {
+        font-size: 1.01rem;
+    }
+    p.description {
+        font-size: 0.7rem;
+        margin-top: 1.3rem;
+    }
+    .head-desc {
+        display: none;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        display: none;
+    }
+    .features p {
+        display: none;
+    }
+    .btn {
+        margin-top: -26px;
+        background-color: white;
+        font-size: 0.65rem;
+        color: #003c61;
+        width: 142px;
+    }
+    .btn:hover {
+        background-color: #357dfc;
+        color: white;
+        border-color: #357dfc;
+    }
+    .fa-github {
+        font-size: 1.2rem;
+        color: #003c61;
+        padding-right: 10px;
+    }
+    /* ---- what is mainflux ---- */
+    .what h4 {
+        font-size: 2.5rem;
+    }
+    .what p {
+        font-size: 0.858rem;
+    }
+    br.brwhat {
+        display: none;
+    }
+    .tool-server div {
+        margin-bottom: 30px;
+    }
+    .tool-server img {
+        height: 70px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect div {
+        margin-top: -15px;
+        margin-bottom: 45px;
+    }
+    .event-connect img {
+        height: 80px;
+    }
+    .tool-server p {
+        font-size: 0.82rem;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.82rem;
+    }
+    /* ---- Mainfux Features ---- */
+    .general-stack h5 {
+        font-size: 2rem;
+        margin-top: -45px;
+    }
+    .general-stack p {
+        margin-bottom: 75px;
+    }
+    .tech-left {
+        padding: 0;
+        margin-top: -24px;
+    }
+    .left-col-what li {
+        font-size: 0.93rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what {
+        margin-top: -29px;
+    }
+    .right-col-what li {
+        font-size: 0.965rem;
+    }
+    .action-call h6 {
+        font-size: 1.2rem;
+    }
+    /* ---- Why Mainflux ---- */
+    .why h4 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+    .why h5 {
+        font-size: 1.24rem;
+    }
+    .why h6 {
+        font-size: 0.96rem;
+    }
+    .why p {
+        font-size: 0.858rem;
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+    }
+    .why img {
+        height: 45px;
+    }
+    /* ---- What can You do with  Mainflux ---- */
+    .do h4 {
+        font-size: 2.5rem;
+    }
+    .do h5 {
+        font-size: 1.24rem;
+    }
+    .do p {
+        font-size: 0.858rem;
+    }
+    .icon-do img {
+        height: 40px;
+    }
+    .right-icon {
+        height: 110px;
+    }
+    .right-col-do h6 {
+        font-size: 0.858rem;
+    }
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    h6#scal {
+        margin-top: 19px;
+    }
+    h6#create {
+        margin-top: 19px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 85%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+    }
+    #social {
+        padding-left: 1.3vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}
+
+/* ---- EXTRA Extra small devices ---- */
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+    .bgimage {
+        background-image: url('http://mainflux.com/wp-content/uploads/2017/03/mainflux-internet-of-things-background-main320-480.png');
+        background-position: center center;
+        background-size: cover;
+        height: 310px;
+    }
+    .headline h2 {
+        font-size: 2.7rem;
+        margin-top: 5rem;
+        letter-spacing: 0;
+    }
+    .headline h1 {
+        font-size: 1.206rem;
+    }
+    .headline h3 {
+        font-size: 1rem;
+    }
+    p.description {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+    .head-desc {
+        display: none;
+    }
+    .features {
+        margin-top: 24px;
+    }
+    .features img {
+        display: none;
+    }
+    .features p {
+        display: none;
+    }
+    .github {
+        display: none;
+    }
+    /* ---- what is mainflux ---- */
+    .what h4 {
+        font-size: 2.2rem;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .what p {
+        font-size: 0.78rem;
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+    br.brwhat {
+        display: none;
+    }
+    .tool-server div {
+        margin-bottom: 30px;
+    }
+    .tool-server img {
+        height: 60px;
+    }
+    .tool-server h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect div {
+        margin-top: -15px;
+        margin-bottom: 45px;
+    }
+    .event-connect img {
+        height: 78px;
+    }
+    .tool-server p {
+        font-size: 0.82rem;
+    }
+    .event-connect h6 {
+        font-size: 0.9rem;
+    }
+    .event-connect p {
+        font-size: 0.82rem;
+    }
+    /* ---- Mainfux Features ---- */
+    .general-stack h5 {
+        font-size: 1.7rem;
+        margin-top: -55px;
+    }
+    .general-stack p {
+        margin-bottom: 75px;
+    }
+    .tech-left {
+        padding: 0;
+        margin-top: -24px;
+    }
+    ul.fa-ul {
+        margin-bottom: -20px;
+    }
+    .fa-ul br {
+        display: none;
+    }
+    .fa-ul li {
+        padding-bottom: 16px;
+    }
+    .left-col-what li {
+        font-size: 0.83rem;
+    }
+    #sdk {
+        display: none;
+    }
+    .right-col-what {
+        margin-top: -29px;
+        display: none;
+    }
+    .right-col-what li {
+        font-size: 0.83rem;
+    }
+    .action-call h6 {
+        font-size: 1.2rem;
+    }
+    /* ---- Why Mainflux ---- */
+    .white-why-section {
+        width: 93.96vw;
+    }
+    .grey-why-section {
+        width: 93.96vw;
+        ;
+    }
+    .why h4 {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    .why h5 {
+        font-size: 1.05rem;
+    }
+    .why h6 {
+        font-size: 0.81rem;
+    }
+    .why p {
+        font-size: 0.83rem;
+    }
+    .left-col-why {
+        border-right: none;
+        margin-bottom: 45px;
+        padding: 0;
+    }
+    .right-col-why {
+        padding: 0;
+    }
+    .why img {
+        height: 35px;
+    }
+    /* ---- What can You do with  Mainflux ---- */
+    .white-do-section {
+        padding: 0;
+    }
+    .grey-do-section {
+        padding: 0;
+    }
+    .left-col-do {
+        padding: 0;
+    }
+    .do h4 {
+        font-size: 2.2em;
+    }
+    .do h5 {
+        font-size: 1.05rem;
+    }
+    .do p {
+        font-size: 0.83rem;
+    }
+    .icon-do img {
+        height: 35px;
+    }
+    .right-icon {
+        height: 110px;
+    }
+    .right-col-do h6 {
+        font-size: 0.83rem;
+    }
+    div#app {
+        padding-bottom: 25px;
+    }
+    div#light {
+        padding-bottom: 25px;
+    }
+    h6#scal {
+        margin-top: 19px;
+    }
+    h6#create {
+        margin-top: 19px;
+    }
+    .action {
+        padding: 0;
+    }
+    /* ---- FOOTER ---- */
+    .footer-col {
+        margin-bottom: 22px;
+        padding-bottom: 15px;
+    }
+    div.input-group {
+        width: 95%;
+    }
+    #licence {
+        margin-top: 3.1rem;
+    }
+    .apache {
+        margin-bottom: 0.4rem;
+    }
+    #licence p {
+        margin-left: 0;
+        font-size: 0.66937rem;
+    }
+    #social {
+        padding-left: 25.5vw;
+    }
+    .footer-line {
+        display: none;
+    }
+    #terms {
+        margin-left: 0;
+        margin-bottom: 0.3rem;
+        padding: 1px;
+    }
+    #terms p {
+        margin-left: 1.3vw;
+    }
+    #mainflux-footer {
+        text-align: left;
+    }
+}

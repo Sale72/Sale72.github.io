@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Mainflux Open Source Internet of Things Platform</title>
+
+    <meta name="description" content=" Mainflux is modern massively-scalable and highly-secured open source and patent-free IoT cloud platform written in Go and Erlang, based on a set of microservices.">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,800,900" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,800,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|NTR|Numans|Nunito|Nunito+Sans|Questrial" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800,900|Rubik:300,400,500,700,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+
+
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="http://mainflux.com/wp-content/uploads/2015/11/cropped-logo-provodni-png-32x32.png" sizes="32x32" />
+    <link rel="shortcut icon" href="http://mainflux.com/wp-content/uploads/2015/11/LOGO2_small.png" />
+
+    <!-- Google Analytic -->
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#featured">MAINFLUX</a>
+            </div>
+            <!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a id="active" href="#home">Home</a></li>
+                    <li class="get-started"><a href="technology.html">Technology</a></li>
+                    <li><a href="#developer">Developer</a></li>
+                    <li><a href="#docs">Blog</a></li>
+                    <li><a href="About-Us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- collapse navbar-collapse -->
+        </div>
+        <!-- container -->
+    </nav>
+
+    <!----------- Heeadline -- Features -- Button ----------->
+    <div class="container-fluid">
+
+        <div class="row bgimage">
+            <div class="col-md-12 headline">
+                <h2>MAINFLUX</h2>
+
+                <h1> INTERNET OF THINGS PLATFORM </h1>
+                <h3>OPEN-SOURCE AND PATENT-FREE</h3>
+
+
+                <p class=" col-md-12 description ">Mainflux is highly-secure, scalable, open-source IoT cloud platform written in Go and Erlang.
+
+                    <br class="head-desc"> It serves as software infrastructure and set of services for development of the
+                    <br class="head-desc"> Internet of Things Solutions and deployment of Intelligent products. </p>
+
+
+            </div>
+
+            <div class="col-md-12 col-sm-12 features">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-3">
+                        <img class="icon-integration" src="http://mainflux.com/wp-content/uploads/2015/10/1446170083_workflow.png" height="64px">
+                        <p>SEAMLESS INTEGRATION
+                            <br> WITH OTHER SYSTEMS</p>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img class="icon-scalable" src="http://mainflux.com/wp-content/uploads/2015/11/MAINFLUX-5.png" height="65px">
+                        <p>SCALABLE AND FAST</p>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img class="icon-secure" src="http://mainflux.com/wp-content/uploads/2017/01/eeeet-security-icon.png" height="65px">
+                        <p>HIGHLY SECURE</p>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <img class="icon-agnostic" src="http://mainflux.com/wp-content/uploads/2017/01/scalability-.png" height="65px">
+                        <p>HARDWARE AND DEVICE
+                            <br> AGNOSTIC
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 button">
+
+                        <a target="_blank" href="https://github.com/mainflux/mainflux">
+                            <button class="btn btn-default github"> <a href="https://github.com/mainflux/mainflux" target="_blank"><i class="fa fa-github"></i></a>GITHUB</button>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--------------------- MAIN CONTENT -------------------->
+
+    <!------------------- What is Mainflux ------------------>
+
+    <section class="what">
+
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-12 what-is">
+                    <h4>WHAT IS MAINFLUX</h4>
+
+                </div>
+
+                <div class="col-md-12">
+                    <img class="img-responsive" id="cloud" src="http://mainflux.com/wp-content/uploads/2017/01/892-Mainflux-Cloud.png">
+                    <p class="cloud-text">Mainflux is open-source IoT cloud platform for development of the
+                        <br class="brwhat"> Internet of Things solutions, IoT applications, and intelligent products.
+                        <br>
+                        <br>Mainflux primary functions are:
+                        <br>
+                    </p>
+                </div>
+
+                <!-- First three functions-->
+                <div class="col-md-12 col-sm-12 tool-server">
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="http://mainflux.com/wp-content/uploads/2017/01/message-routing-connection-iot.png" height="85px">
+                            <h6>CONNECTIVITY<br>AND MESSAGE ROUTER</h6>
+
+                            <p>Interact with very large numbers of devices
+                                <br>and gateways with different protocols
+                            </p>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <img src="http://mainflux.com/wp-content/uploads/2017/01/server-system-internet-of-things-cloud.png" height="101px">
+                            <h6>SERVER SYSTEM</h6>
+
+                            <p>Server System for Device
+                                <br>and Data Management
+                            </p>
+
+
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-4">
+                            <img src="http://mainflux.com/wp-content/uploads/2017/01/event-management-analytics-ui-iot1.png" height="85px">
+                            <h6>EVENT MANAGEMENT<br>  ANALYTICS &amp; UI</h6>
+
+                            <p>Event processor
+                                <br>data analyzing and creation of reports
+
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Second two functions-->
+                <div class="col-md-12 col-sm-12 event-connect">
+
+                    <div class="row">
+
+                        <!-- sw foundation -->
+                        <div class="col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 ">
+                            <img src="http://mainflux.com/wp-content/uploads/2017/01/intelligent-product-deployment-iot-platform.png" height="104px">
+                            <h6>SOFTWARE  FOUNDATION</h6>
+
+                            <p>Software Foundation for
+                                <br> Intelligent Products Deployment
+                            </p>
+
+
+
+                        </div>
+
+
+                        <div class="col-md-4 col-sm-4">
+                            <img src="http://mainflux.com/wp-content/uploads/2017/01/api-sdk-interent-of-things-platform.png" height="105px">
+                            <h6>CLOUD  PLATFORM AND TOOLS</h6>
+
+                            <p>Cloud Platform &amp; Tools for IoT Applications
+                                <br> and Solutions Development
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Infrastructure general stack -->
+
+                <div class="col-md-12">
+                    <div class="row">
+
+                        <div class="col-md-12 general-stack">
+                            <h5> MAINFLUX INFRASTRUCTURE STACK</h5>
+
+                            <img class="img-responsive infrastructure" src="http://mainflux.com/wp-content/uploads/2017/03/SECURITY-stack-iot-general-Copy.png">
+
+                            <p>Mainflux software infrastructure stack is composed of all components and microservices necessary for IoT solutions.
+                                <br>The IoT Cloud Platform will facilitate the interoperability of the IoT solution with existing enterprise applications and other IoT solutions.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--END OF Infrastructure general stack-->
+
+
+                <!-- Mainflux Architecture -->
+
+                <div class="col-md-12" style="padding-top:5x; border-bottom:6px solid rgba(114, 135, 159, 0.2);">
+                    <div class="row">
+
+                        <div class="col-md-12 general-stack">
+
+                            <h5> MAINFLUX FEATURES</h5>
+
+                            <p style="margin-bottom:15px;">An extensive list of features includes:</p>
+
+                        </div>
+
+                        <div class="col-md-12 tech-left">
+
+
+                            <div class="col-md-6 col-lg-offset-1 left-col-what col-sm-6">
+                                <div class="media">
+                                    <br>
+                                    <div class="col-md-12" style="padding-left:0">
+
+                                        <br>
+
+                                        <ul class="fa-ul">
+
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Responsive and scalable architecture based on a set of microservices</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Set of clean APIs: HTTP RESTful, MQTT, WebSocket and CoAP</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>SDK - set of client libraries for many HW platforms in several
+                                                <br id="sdk"> programming languages: C/C++, JavaScript, Go and Python</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Device management and provisioning and OTA FW updates</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Highly secured connections via TLS and DTLS</li>
+
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5  right-col-what col-sm-6">
+                                <div class="media">
+                                    <br>
+                                    <div class="col-md-12" style="padding-left:0">
+
+                                        <br>
+
+                                        <ul class="fa-ul">
+
+
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Enhanced and fine-grained security via deployment-ready Mainflux Authentication and Authorization Server with Access Control
+                                                <br> scheme based on customizable API keys and scoped JWT</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Easy deployment and high system scalability via Docker images</li>
+                                            <br>
+                                            <li><i class="fa-li fa fa-play" aria-hidden="true"></i>Clear project roadmap, extensive development ecosystem and highly skilled developer community</li>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid action">
+
+                        <div class="row action">
+
+                            <div class="col-md-12 col-xs-12 action-call">
+                                <h6>Read more for Mainflux technology choices</h6>
+                            </div>
+
+                            <div class="col-md-12 action-button">
+
+                                <a href="technology.html">
+                                    <button class="btn btn-default" id="tech"> MAINFLUX TECHNOLOGY</button>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- END OF Action Call -->
+
+                </div>
+                <!--END OF Mainflux Architecture-->
+
+
+            </div>
+            <!-- END OF row What is Mainflux -->
+
+        </div>
+        <!-- END OF container-fluid What is Mainflux -->
+
+    </section>
+
+    <!-------------------- Why Mainflux ------------------->
+
+    <section class="why">
+
+
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="col-md-12">
+                    <h4>WHY MAINFLUX</h4>
+
+                </div>
+
+                <div class="col-md-12 col-xs-12 white-why-section">
+
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-xs-11 col-xs-offset-1 left-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object" src="http://mainflux.com/wp-content/uploads/2015/11/MAINFLUX-2b.png" height="58px">
+
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading why-subheadline">DEVELOPER AND USER FRIENDLY</h5>
+                                    <h6 class="media-heading why-subheadline">SIMPLE AND FAST DEPLOYMENT</h6>
+                                </div>
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>Exclude demanding development and maintenance of software technology and server infrastructure. Minimize deployment risks, costs, time and requirements.
+                                        <br>
+                                        <br> With a number of SDKs and pre-built client libraries set up is quick and easy, enabling a developer to save implementation time.
+                                        <br>
+                                        <br> Mainflux back-end cloud platform configuration and open APIs provide means to easily connect any device or sensor without its modification or adjustment, saving customer and end-user valuable time and making simple entire IoT process. With platform built-in graphic elements (integrated visualization and analytical tools) customers can quickly create screens, dashboards and analytic ready for use.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-11  col-xs-offset-1 right-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object" src="http://mainflux.com/wp-content/uploads/2015/11/MAINFLUX-5.png" height="50px">
+
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading  why-subheadline">SCALABILITY AND SPEED</h5>
+                                    <h6 class="media-heading  why-subheadline">LARGE SCALE DEPLOYMENTS AND HUGE TRANSACTIONS</h6></div>
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>Our platform has the capacity to manage large-scale device deployments and huge volume transactions.
+                                        <br>
+                                        <br>Mainflux architecture ensures indispensable performance required in the large Internet of Things project deployments, namely an enormous number of data readings per day, concurrent user applications and device networks.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- End of White Why Section -->
+
+
+                <!-------- Grey Why Section --------->
+
+
+                <div class="col-md-12 col-xs-12 grey-why-section">
+
+                    <div class="row">
+
+                        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-xs-11 col-xs-offset-1  left-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object icon-why" src="http://mainflux.com/wp-content/uploads/2015/11/MAINFLUX-4-plavo.png" height="58px">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading why-subheadline">PROTOCOL FLEXIBILITY</h5>
+                                    <h6 class="media-heading why-subheadline">KEY IOT PROTOCOLS SUPPORTED</h6>
+
+                                </div>
+
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>Mainflux platform supports many Internet of Things protocols including MQTT, Websockets, CoAP, and restAPI.
+                                        <br>
+                                        <br> This allows fast data integration and communication between the wide range of different connected assets, entities and systems, such as machines, enterprise applications, networking devices, systems (3rd party device clouds, hubs, routers, servers, gateways, peripheral and user interfaces).
+                                        <br>
+                                        <br> Customers are free in that way from typical barriers and project delays, so they can develop IoT project faster without additional costs and expenses.
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-11 col-xs-offset-1  right-col-why">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class=" media-object icon-why" src="http://mainflux.com/wp-content/uploads/2017/01/scalability-.png" height="63px">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading  why-subheadline">HARDWARE AND DEVICE AGNOSTIC</h5>
+                                    <h6 class="media-heading  why-subheadline">COMPATIBLITY WITH ANY NETWORKING HARDWARE AND SMART DEVICE</h6>
+
+                                </div>
+
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>Mainflux platform is compatible with any networking hardware and an intelligent device.
+                                        <br>
+                                        <br>With pre-built client libraries, we are providing our customers possibility to select the solution that responds to their business needs and operational excellence in the best possible manner.
+                                        <br>
+                                        <br> You can easily give web connectivity to any of your assets whether they are machines, devices, objects, living beings or physical environment.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End of Grey Why Section -->
+
+
+
+                <!-- 2nd White Why Section -->
+
+                <div class="col-md-12 col-xs-12 white-why-section">
+
+                    <div class="row">
+                        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-xs-11 col-xs-offset-1  left-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object" src="http://mainflux.com/wp-content/uploads/2017/01/eeeet-security-icon.png" height="58px">
+
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading why-subheadline">DATA SECURITY - FAULT TOLERANT</h5>
+                                    <h6 class="media-heading why-subheadline">COMPREHENSIVE SECURITY SYSTEM</h6>
+                                </div>
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>With our comprehensive security system, customer data is safe and secure – first by storing data in different fault-tolerant, scalable storage locations and second through the hierarchical administration of users, user group asset, and asset group profiles and finally by encrypting communication and data between end-user clients, networking devices and Mainflux cloud.
+                                        <br>
+                                        <br>This makes Mainflux security system protected and safe from a single point of failure. Over and above, full control and API access to data are provided at any time.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-11 col-xs-offset-1  right-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object" src="http://mainflux.com/wp-content/uploads/2016/11/computer-chip2-2-512.png" height="50px">
+
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading  why-subheadline">HARDWARE EXPERTISE</h5>
+                                    <h6 class="media-heading  why-subheadline">FOR BEST COST-QUALITY RELATED SOLUTIONS</h6></div>
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>With the extensive working experience and knowledge of hardware and intelligent devices, our team can provide operational expertise for the best cost-quality related solutions and support needed for every IoT project. Our expertise covers every functional aspect of the networking technology required for connecting objects, including its huge market and a large number of manufacturers.
+                                        <br>
+                                        <br>Furthermore we have created open source hardware platform WeIO, awarded for the best open source project by Postscapes and presented on Linux.com, OSCON Portland, New York Makefaire and Techcrunch Disrupt London among the others.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End of 2nd White Why Section -->
+
+                <!-- 2nd Grey Why Section -->
+
+                <div class="col-md-12 col-xs-12 grey-why-section" style="padding-top:5x; border-bottom:6px solid rgba(114, 135, 159, 0.2);">
+
+                    <div class="row">
+
+                        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-xs-11 col-xs-offset-1  left-col-why">
+                            <div class="media">
+                                <div class="media-left">
+
+                                    <img class="media-object icon-why" src="http://mainflux.com/wp-content/uploads/2015/11/MAINFLUX-8.png" height="58px">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading why-subheadline">
+OPEN SOURCE AND PATENT FREE</h5>
+                                    <h6 class="media-heading why-subheadline">PUBLISHED UNDER LIBERAL APACHE v2.0 LICENSE</h6>
+
+                                </div>
+
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>Mainflux cloud SW is a community initiative guided and driven by Mainflux company experts.
+                                        <br>
+                                        <br>Cloud SW core is open sourced so that industry players can inspect, change and adopt SW to their own needs. We strongly believe that openness provides high-quality and bug-free code and augments securit.
+                                        <br>
+                                        <br>Mainflux cloud is published under very permissive Apache v2.0 license which guarantees patent-free SW that can be used by industry in proprietary and commercial products. All the code and various additional information regarding Mainflux development can be found on company’s official GitHub page.
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-11 col-xs-offset-1  right-col-why">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class=" media-object icon-why" src="https://www.tradlosetrondheim.no/wp-content/uploads/2016/04/lora-logo-transp-400x231.png" height="63px">
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading  why-subheadline">LoRa INTEGRATION</h5>
+                                    <h6 class="media-heading  why-subheadline">FOR BEST COST-QUALITY RELATED SOLUTIONS</h6>
+
+                                </div>
+
+                                <div class="col-md-12" style="padding-left:0">
+                                    <p>The LoRaWAN (Low Power Wide Area Network LPWAN) technology is ideal to target battery operated sensors and low power applications as a complement to M2M cellular connectivity.
+
+                                        <br>
+                                        <br>With LoRaWAN, entire cities or countries can be covered with a few base stations, no longer requiring the upfront rollout and maintenance of thousands of nodes as in traditional mesh networking. This has made IoT possible now, with minimal infrastructure investment.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- End of 2nd Grey Why Section -->
+
+
+            </div>
+        </div>
+
+    </section>
+    <!------ END OF Why Mainflux Section ------>
+
+
+    <!------ What Can you do with Mainflux Section ------>
+
+    <section class="do">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-12 white-do-section">
+                    <div class="col-md-12">
+                        <h4>WHAT CAN YOU DO WITH MAINFLUX</h4>
+
+                    </div>
+
+                    <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1 col-xs-11 col-xs-offset-1 left-col-do">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class=" media-object icon-do" src="http://mainflux.com/wp-content/uploads/2017/01/integrtor-ikona.png" height="48px">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading do-subheadline">FOR CTO'S, IT MANAGERS &amp; SYSTEM INTEGRATORS</h5>
+
+
+                            </div>
+
+                            <div class="col-md-12" style="padding-left:0">
+                                <p>Increase organisational efficiency and reduce costs with enhanced IoT data-driven decision-making. </p>
+                                <p> Integrate real-time, operational device data into key enterprise decision- making systems.</p>
+                                <p> Modernise IT environment and improve technology stack by upgrading with systems and applications that help generate growth and better business outcomes.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-5 col-md-4 right-col-do">
+                        <div class="row">
+                            <div class="col-md-12 right-icon-do">
+                                <img class="right-icon" src="http://mainflux.com/wp-content/uploads/2017/01/qualitative-icon.png" height="150px">
+                            </div>
+                            <div class="col-md-12 icon-subheadline">
+
+                                <h6>IMPROVE OPERATIONAL EFFICIENCY,<br>BUSINESS DECISIONS AND OUTCOMES</h6>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 1st Grey What With Mainflux (second)  -->
+
+                <div class="col-md-12 grey-do-section">
+
+                    <div id="app" class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1  col-xs-11 col-xs-offset-1 left-col-do">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class=" media-object icon-do" src="http://mainflux.com/wp-content/uploads/2017/01/application-developer.png" height="50px">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading do-subheadline">FOR APPLICATION DEVELOPERS</h5>
+
+                            </div>
+
+
+                            <div class="col-md-12" style="padding-left:0">
+                                <p>Develop connected IoT applications and enterprise-grade IoT solutions </p>
+                                <p> Create real-time dashboards, collaborative workspaces, rich interfaces and powerful user experiences across different devices</p>
+                                <p>Connect your application with hardware and smart devices over various network protocols and highest security procedures.
+                                </p>
+                                <p>Employ/Use data storage, analysis, business logic, visualization, execution, ollaboration, and security capabilities required for interactive applications.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5  col-md-4 right-col-do">
+                        <div class="row">
+                            <div class="col-md-12 right-icon-do" style="margin-top:7em">
+                                <img class="right-icon" src="http://mainflux.com/wp-content/uploads/2017/01/ottawa-custom-software-enterprise-application-developers.png" height="150px">
+                            </div>
+                            <div class="col-md-12 icon-subheadline">
+
+                                <h6 id="scal">DEVELOP SCALABLE IOT APPLICATIONS<br>AND SOLUTIONS</h6>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- What can you do with mainflux white 3rd -->
+
+
+                <div class="col-md-12 white-do-section">
+
+                    <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-1  col-xs-11 col-xs-offset-1 left-col-do" id="light">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object icon-do" src="http://mainflux.com/wp-content/uploads/2017/01/4o.jpg" height="50px">
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading do-subheadline">FOR PRODUCTS EXTENDERS AND VISIONARES</h5>
+
+
+                            </div>
+
+                            <div class="col-md-12" style="padding-left:0">
+                                <p>Develop prototype, add the internet and connectivity to your product with software development tools and our hardware expertise support </p>
+                                <p> Deploy and manufacture products at scale with our real-time, secure and scalable cloud platform and back-end infrastructure.</p>
+                                <p>Manage your intelligent product with a dashboard. Update firmware, collect real-time data and integrate your product with other applications and web servicies.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 col-md-4 right-col-do">
+                        <div class="row">
+                            <div class="col-md-12 right-icon-do">
+                                <img class="right-icon" src="http://mainflux.com/wp-content/uploads/2017/01/HOME_SMARTBUNDLE_ICON.png" height="147px">
+                            </div>
+                            <div class="col-md-12 icon-subheadline">
+
+                                <h6 id="create">CREATE AND DEPLOY<br> INTELLIGENT PRODUCTS</h6>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    <!-----  END OF What Can you do with Mainflux Section ----->
+
+
+    <!----- Action Call ----->
+
+    <div class="container-fluid">
+
+        <div class="row action">
+
+            <div class="col-md-12 action-call">
+                <h6>You need internet of things solution or hardware expertise?</h6>
+            </div>
+
+            <div class="col-md-12 action-button">
+
+                <a href="contact-us.html">
+                    <button class="btn btn-default" id="action">CONTACT US</button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- END OF Action Call -->
+
+    <!------------------ FOOTER ------------------>
+
+    <div class="container-fluid">
+        <div class="row footer">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1 footer-col">
+                        <h6>CONTACT US</h6>
+                        <br/>
+                        <p><a href="mailto:info@mainflux" target="_blank">Email: info@mainflux.com</a></p>
+                        <br/>
+                        <p><a href="#">Website: mainflux.com</a></p>
+                        <br/>
+                        <p><a href="https://github.com/mainflux/mainflux">Github</a></p>
+                    </div>
+
+
+
+                    <div class="col-md-2 footer-col">
+                        <h6>PLATFORM & SERVICES</h6>
+                        <br/>
+                        <p><a href="#">IoT Cloud Platform</a></p>
+                        <br/>
+                        <p><a href="#">Documentation</a></p>
+                        <br/>
+                        <p><a href="#">Hardware Consulting</a></p>
+
+                    </div>
+
+
+                    <div class="col-md-2 footer-col">
+
+                        <h6>ABOUT US</h6>
+                        <br/>
+                        <p><a href="About-Us.html">Team</a></p>
+                        <br/>
+                        <p><a href="#">News and Press</a></p>
+                        <br/>
+                        <p><a href="#">FAQ</a></p>
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <h6>NEWSLETTER</h6>
+                        <br/>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Sign up for our newsletter" aria-describedby="basic-addon2">
+                            <span class="input-group-addon" id="basic-addon2">SUBMIT</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12" id="licence">
+
+                <div class="row">
+
+                    <div class="col-md-6 col-xs-12 apache">
+
+                        <p>Apache v2.0 – 2017 Mainflux - Internet of Things Solutions</p>
+
+                    </div>
+
+                    <div class="col-md-6 col-xs-12" id="social">
+
+                        <a href="https://github.com/mainflux/mainflux" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/Mainflux" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/mainflux/#" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://plus.google.com/u/0/118370332058380800320" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a href="https://www.linkedin.com/company/mainflux?trk=top_nav_home" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                        <a href="http://www.slideshare.net/Mainflux
+                        " target="_blank"><i class="fa fa-slideshare"></i></a>
+                        <a href="https://www.youtube.com/channel/UCVoy7rdj7T9uuASB3E_Fuiw" target="_blank"><i class="fa fa-youtube"></i></a>
+                        <a href="https://vimeo.com/mainflux" target="_blank"><i class="fa fa-vimeo"></i></a>
+                        <i class="fa fa-reddit-alien"></i>
+
+                    </div>
+
+
+                    <div class="col-md-12 col-xs-12">
+                        <div class="footer-line"></div>
+
+                    </div>
+
+
+                    <div class="col-md-7 col-xs-12" id="terms">
+                        <p><a href="#">Terms of Use /</a><a href="#">Internet Security /</a><a href="#">Privacy & Cookie Policy /</a><a href="#">Accessibility</a></p>
+
+
+                    </div>
+                    <div class="col-md-4 col-xs-12" id="mainflux-footer">
+                        <p>MAINFLUX</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- jqery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
